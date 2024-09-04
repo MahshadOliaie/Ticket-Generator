@@ -10,7 +10,7 @@ function Tickets({ selectedAirline, counter, more }) {
 
     useEffect(() => {
         let arr = []
-        for (let i = 1; i <= (+more); i++) {
+        for (let i = 1; i <= (+more / 2); i++) {
             arr.push(i)
         }
         setMoreCount(arr)
@@ -95,6 +95,14 @@ function Tickets({ selectedAirline, counter, more }) {
                 (moreCount.length > 0) ?
                     moreCount.map((item, index) => {
                         return <WebTicket4 from={false} airline={selectedAirline} key={index} />
+                    })
+                    :
+                    ""
+            }
+            {
+                (moreCount.length > 0) ?
+                    moreCount.map((item, index) => {
+                        return <WebTicket3 from={true} airline={selectedAirline} key={index} />
                     })
                     :
                     ""
