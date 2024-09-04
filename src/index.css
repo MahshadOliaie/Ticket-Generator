@@ -333,4 +333,8 @@ p {
     .page-break {
         page-break-before: always;
     }
+    div:not(.page-break) {
+        page-break-inside: avoid; /* Older property */
+        break-inside: avoid;      /* Standard property */
+    }
 }
