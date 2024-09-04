@@ -1,0 +1,87 @@
+.flex {
+    display: flex;
+    gap: 15px;
+}
+
+.asemanTicket {
+    width: 750px;
+    margin: auto;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.top {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.topBarcode{
+    padding-right: 3px;
+}
+
+
+.topBarcode img {
+    height: 40px;
+    width: 250px;
+}
+
+.center {
+    text-align: center;
+}
+
+.logoDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.logoDiv img {
+    width: 170px;
+    max-height: 100px;
+}
+
+
+.barcode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+td {
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 101%;
+    margin: auto;
+    margin-right: -2px;
+}
+
+.logoDiv{
+    padding: 0 30px;
+}
+
+.textColor{
+    padding: 0px 10px;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

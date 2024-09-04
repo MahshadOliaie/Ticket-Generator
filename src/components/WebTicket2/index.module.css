@@ -1,0 +1,132 @@
+.flex {
+    display: flex;
+}
+
+.iranAir {
+    width: 730px;
+    margin: auto;
+    margin-bottom: 550px;
+}
+
+.iranAir__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.iranAir__header img {
+    width: 120px;
+    height: 45px;
+}
+
+
+.iranAir__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.iranAir__logo img {
+    height: unset;
+    max-height: 120px;
+    width: 180px;
+    padding-left: 10px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+}
+.contact p{
+    margin: 0;
+}
+
+.iranAir__topBox {
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.iranAir__middle {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid black;
+
+}
+
+
+.iranAir__middle__top {
+    display: flex;
+    font-weight: bold;
+    gap: 30px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 12px 70px;
+    justify-content: center;
+}
+
+.iranAir__middle__bottom {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    height: 100%;
+}
+
+.iranAir__middle__bottom>div {
+    text-align: center;
+}
+
+.iranAir__middle__top svg {
+    width: 20px;
+}
+
+.iranAir__endBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 3px;
+    font-size: 12.5px;
+    gap: 7px;
+    margin-right: -15px;
+}
+
+.iranAir__endBox p{
+    margin: 0;
+}
+
+.titles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.titles p{
+    flex: 1;
+    text-align: center;
+}
+
+.prices{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.prices>div{
+    display: flex;
+    gap: 50px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding: 0 35px;
+}
