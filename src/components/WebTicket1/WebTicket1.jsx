@@ -53,7 +53,7 @@ function WebTicket1({ from, airline }) {
 
     return (
         <>
-            <div className='ticket'>
+            <div className='ticket page-break'>
                 <div className="header flex">
                     <div className="header__name flex">
                         <p className="nameF">{nameNum.nameFA}</p>

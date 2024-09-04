@@ -23,8 +23,7 @@ body {
     border: 1px solid black;
     width: 750px;
     margin: auto;
-    margin-bottom: 100px;
-    margin-top: 20px;
+
 }
 
 .topBox {
@@ -328,4 +327,10 @@ p {
 .activeSubmit {
     pointer-events: all;
     opacity: 1;
+}
+
+@media print {
+    .page-break {
+        page-break-before: always;
+    }
 }

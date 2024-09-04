@@ -74,7 +74,7 @@ function WebTicket4({ from, airline }) {
     }
 
     return (
-        <div className={CSS.asemanTicket}>
+        <div className={`${CSS.asemanTicket} page-break`}>
             <div className={CSS.top}>
                 <div className={CSS.topBarcode}>
                     <div className={CSS.barcode}>

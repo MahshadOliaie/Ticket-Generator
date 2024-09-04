@@ -71,7 +71,7 @@ function WebTicket2({ from , airline }) {
 
     return (
         <>
-            <div className={CSS.iranAir}>
+            <div className={`${CSS.iranAir} page-break`}>
                 <div className={CSS.iranAir__header}>
                     <img src={flightio} alt="" />
                     <div className={CSS.contact}>

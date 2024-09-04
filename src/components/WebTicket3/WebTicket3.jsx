@@ -75,7 +75,7 @@ function WebTicket3({ from , airline}) {
     }
 
     return (
-        <div className={CSS.mahanTicket}>
+        <div className={`${CSS.mahanTicket} page-break`}>
             <p className={CSS.title}>Travel Itenlrary</p>
             <div className={CSS.topBox}>
                 <div className={CSS.topBox__logo}>
